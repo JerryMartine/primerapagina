@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: #373739;
+}
+
+/************ encabezado************/
+.encabezado{
+    height: 125px;
+    width: 100%;
+    background-color: #19191a;
+    box-shadow: 0px 10px 10px #020202;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+/*Parte de los creadores*/
+.cts{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+#ice{
+    color: #60d4ea;
+}
+#kling{
+    color: red;
+}
+/* nombre*/
+.nombre{
+    color: aliceblue;
+}
+
+.imgDiscord{
+    height: 50px;
+}
+
+
+.discord{
+    margin-right:50px ;
+
+}
+
+
+.caja{
+    background-color: #19191a;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.video{
+    margin-top: 50px;
+}
+/*cajas de las cosas del nivel*/
+.cantenedores{
+    display: flex;
+    justify-content: center;
+}
+
+.cantenedores div{
+    margin: 50px;
+}
+.password h1{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.id h1{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.longitud h1{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.objetos h1{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.record{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.records{
+    background-color: #373739;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.jugador{
+    display: flex;
+    flex-direction: column;
+}
+
+.jugador h1, a{
+    font-size: 25px;
+    margin: 50px;
+}
+
+.jugador a{
+    text-decoration: none;
+    color: #0aad43;
+}
+
+.diferent{
+    color: rgb(255, 255, 0);
+}
